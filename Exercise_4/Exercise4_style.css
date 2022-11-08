@@ -1,0 +1,9 @@
+.green {
+    color: green;
+    border: 1px red ;
+    width: 300px;
+}
+
+a:hover {
+    color: red;
+}
