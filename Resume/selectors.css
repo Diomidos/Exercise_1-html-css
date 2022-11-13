@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    /* background: #DCDCDC; */
+    background-image: url("https://damion.club/uploads/posts/2022-09/1663909219_1-damion-club-p-samurai-fon-vkontakte-1.jpg");
+    font-size: 16px;
+    font-family: Oswald, sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+.name{
+    color: black;
+}
+.info{
+    margin-bottom: 20px;
+    display: flex;
+}
+.info-text{
+    margin-left: 40px;
+}
+@media (max-width: 650px){
+    .info{
+        display: block;
+        text-align: center;
+    }
+}
+a{
+    color: rgb(134, 11, 11);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+    padding-top: 30px;
+}
+.avatar{
+    width: 200px;
+    border-radius: 25px;
+    margin-top: 8px;
+    box-shadow: 4px 4px 4px rgba(10, 10, 10, 0.25);
+}
+.card_Im {
+    font-style: italic;
+    font-weight: 750;
+    letter-spacing: 2px;
+    margin: 0;
+}
+.list{
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    color: black;
+}
+.networks{
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+    margin-bottom: 14px;
+}
+.hobby{
+    color: #545961;
+    padding: 0 20px;
+    
+}
+.travels{
+    text-decoration: underline;
+}
+.crafts{
+    text-decoration: underline;
+}
+.connection{
+    text-decoration: underline;
+    color: rgb(13, 58, 62);
+}
+
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border-collapse: collapse; 
+}
+.table td:nth-child(2),
+.table td:nth-child(3){
+    color: #86898f;
+}
+/* .table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #141414;
+}
+.table td {
+	border: 1px solid #0b0a0a;
+	padding: 5px;
+} */
+.footer .btn{
+    color: rgb(151, 108, 192);
+    font-weight: 700;
+    /* padding: 10px 15px; */
+    font-family: 'Roboto';
+    cursor: pointer;
+    border-bottom: none;
+    border-radius: 10px;
+    border-color: rgb(8, 107, 74);
+    background: rgb(119, 7, 119);
+}
+.btn:hover{
+    opacity: 20;
+    color: rgb(245, 0, 228);
+}
+/* .footer .btn{
+    border-radius: 5px;
+    color: chocolate;
+} */
+.curs{
+    list-style: none;
+    padding: 0;
+    color: #86898f;
+}
+.curs li{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(156, 152, 152);
+    padding-bottom: 5px;
+}
+.form h4 {
+    text-align: center;
+}
+.footer label{
+    display: block;
+    font-size: 14px;
+    color: #3a2d8c;
+}
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+.form-row .footer{
+    margin-right: 20px;
+    /* display: inline-block;
+    width: calc(50% - 20px);     Вместо этих 2х элементов можно создать 2а других. Один выше(display: flex) Второй тут же (width:50%)*/ 
+    width: 50%;
+}
+.form-row .footer:last-child{
+    margin-right: 0;
+}
+@media (max-width: 650px){
+    .form-row {
+        display: block;
+    }
+    .form-row .footer{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+.footer input,
+.footer textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(56, 53, 53);
+    /* Далее указывается цвет, которым будет выводится текст в полях ввода */
+    color: black;
+    padding: 15px 0 10px;
+    outline: none;
+    cursor: pointer;
+}
+.footer ::placeholder{
+    color: rgb(79, 19, 71);
+}
+
