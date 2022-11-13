@@ -1,0 +1,18 @@
+
+
+.green {
+    color: green;
+    border: 1px solid red;
+    width: 400px;
+    background: #eee;
+}
+
+a:hover {
+    color: salmon
+}
+
+@media(max-width: 1000px) {
+    body{
+    background-image: url("https://abrakadabra.fun/uploads/posts/2022-01/1641093872_1-abrakadabra-fun-p-nezhno-rozovoe-nebo-2.jpg");
+}
+}
