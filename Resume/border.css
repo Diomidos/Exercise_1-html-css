@@ -1,0 +1,45 @@
+.info{
+    background: #95acb9;
+    color: #3a3d41;
+    border-bottom: 2px solid green;
+    padding-left: 15px;
+    padding-bottom: 20px;
+    margin-bottom: 5px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 5px solid #f2f6ee;
+    
+}
+.page{
+    padding: 20px;
+    padding-left: 10px;
+}
+/* #List_networks{
+    border: 5px solid #7fff00;
+    background:#ddd993;
+    padding: 15px;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+} */
+#list_hobby{
+    border: 5px solid #f2f6ee;
+    background:#e1c3eb;
+    padding: 15px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+#table{
+    background: rgb(231, 179, 223);
+    border: 5px solid #f2f6ee;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+#curs{
+    background: hsl(180, 25%, 76%);
+    padding: 15px;
+    padding-left: 20px;
+    border: 5px solid #f2f6ee;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
